@@ -5,4 +5,5 @@ Python
 
 Solutions will have optimal time complexity 
 
-Day1 video solution: [https://youtu.be/k8Y0BJ5x6hM](https://youtu.be/k8Y0BJ5x6hM)
+- Day1 video solution: [https://youtu.be/k8Y0BJ5x6hM](https://youtu.be/k8Y0BJ5x6hM)
+- Day2 video solution: [https://youtu.be/tXJZVMjXyGI](https://youtu.be/tXJZVMjXyGI)
