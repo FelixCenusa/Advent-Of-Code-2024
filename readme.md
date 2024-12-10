@@ -13,3 +13,4 @@ Solutions will have optimal time complexity
 - Day 6 video solution: [https://youtu.be/Q1BAvmIPFdo](https://youtu.be/Q1BAvmIPFdo)
 - Day 7 video solution: [https://youtu.be/nJivVmfWx2k](https://youtu.be/nJivVmfWx2k)
 - Day 8 video solution: [https://youtu.be/cWeo0ezGIo8](https://youtu.be/cWeo0ezGIo8)
+- Day 9 video solution: [https://youtu.be/RRqZ8IVY-QA](https://youtu.be/RRqZ8IVY-QA)
