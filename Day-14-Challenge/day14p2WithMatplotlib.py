@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 with open("Day-14-Challenge/input.txt", "r") as file:
     lines = file.readlines()
 
@@ -5,7 +6,7 @@ WIDE = 101
 TALL = 103
 
 robots = []
-for robot in lines: #  format
+for robot in lines:
     sides = robot.split(" ")
     left_side = sides[0]
     right_side = sides[1]
@@ -32,7 +33,6 @@ for second in range(WIDE * TALL): # pattern will repeat every WIDE * TALL times
     for i in range(len(robots)):
         Px,Py,Vx,Vy = robots[i]
         new_Py, new_Px = (Px + Vx * second),(Py + Vy * second) # swap X and Y coords because its swapped in the examples too
-        # for matplotlib
         new_Px, new_Py = (new_Px % TALL), (new_Py % WIDE)
         final_grid[new_Px][new_Py] += 1 
         vertical_middle = WIDE // 2
@@ -59,9 +59,15 @@ for second in range(WIDE * TALL): # pattern will repeat every WIDE * TALL times
         smallest_answer = answer
         found_at_second = second
 
+    if(second == 6398): # Just with my input the answer is at 6398, find it first then put it here
+        print("seocnds: ", second)
+        plt.figure(figsize=(TALL,WIDE))
+        plt.imshow(final_grid)
+        plt.show()    # add this and remove savefig to just see it.
+        # plt.savefig(f'Day-14-Challenge\plot_images\second{second}.png', bbox_inches='tight')
     
-print("Found smallest safety factor: ", smallest_answer)
-print("at second: ", found_at_second)
+print(smallest_answer)
+print(" at second: ", found_at_second)
 
 
 # Total time complexity
