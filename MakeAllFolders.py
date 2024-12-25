@@ -4,7 +4,7 @@ base_directory = "Challenges"
 # move them out after, just dont want a mess at first.
 if not os.path.exists(base_directory):
     os.mkdir(base_directory)
-for day in range(1, 25):
+for day in range(1, 26):
     day_folder = os.path.join(base_directory, f"Day-{day}-Challenge")
     if not os.path.exists(day_folder):
         os.mkdir(day_folder)

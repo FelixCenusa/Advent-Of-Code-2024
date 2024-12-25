@@ -1,0 +1,3 @@
+https://adventofcode.com/2024/day/25
+Part 2 is to just click a button, but you can only do it if you 
+completed every challange this year.
