@@ -31,4 +31,6 @@ Solutions will have optimal time & space complexity
 - Day 24 video solution: [https://youtu.be/NVDTzmTdK0U](https://youtu.be/NVDTzmTdK0U)
 - Day 25 video solution: [https://youtu.be/PFRv-sKFLUw](https://youtu.be/PFRv-sKFLUw)
 
+- Aoc Supercut [https://youtu.be/YIOukKYyW0U](https://youtu.be/YIOukKYyW0U)
+
 Thank you everyone for following along in the leaderboard and in this journey!
